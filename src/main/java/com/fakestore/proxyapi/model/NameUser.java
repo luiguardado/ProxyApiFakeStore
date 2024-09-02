@@ -1,6 +1,6 @@
 package com.fakestore.proxyapi.model;
 
-import jakarta.persistence.Embeddable;
+//import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Embeddable
+//@Embeddable
 public class NameUser {
 
     private String firstName;
